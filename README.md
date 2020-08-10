@@ -1,4 +1,5 @@
-# Learning to Simulate and Design for Structural Engineering
+
+# Learning to Simulate and Design for Structural Engineering (LSDSE)
 ---------------------------------------------------------------------------
 
 This repo stores the dataset used in the paper "Learning to Simulate and Design for Structural Engineering". The paper is published to ICML 2020 and here are the linkes to the [Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5700-Paper.pdf) and the [Video](https://www.youtube.com/watch?v=0KNW2GkmX2s).
@@ -30,8 +31,8 @@ edges are stored with two lists: senders and receivers. The two lists of the sam
   -  column_grounds_receivers: `ground node ID = N`
 ---------------------------------------------------------------------------
 ## bar_id_in_stories
+For a `K`-story building, this list contains `K+1` elements, where each element is a list containing all bar IDs in that story and the last element is the `ground node ID = N`.
 
-For a `K`-story building, this list contains `K+1` elements, where each element is a list containing all bar IDs in that story and the last element is the ground node ID `[N]`
 ---------------------------------------------------------------------------
 ## drift_ratio
 
