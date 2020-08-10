@@ -18,6 +18,7 @@ Assume we have a building structure with `N` bars(columns and beams) and `K` sto
 ---------------------------------------------------------------------------
 ## edges
 edges are stored with two lists: senders and receivers. The two lists of the same edge type should have the same length. Elements in the list are bar ID, the same ass index in the `bar_nodes` list.
+
 ***Column-column edge***
   - column_column_senders: upper-story column ID
   - column_column_receivers: lower-story column ID
