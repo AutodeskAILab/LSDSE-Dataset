@@ -2,7 +2,7 @@
 # Learning to Simulate and Design for Structural Engineering (LSDSE)
 ---------------------------------------------------------------------------
 
-This repo stores the dataset used in the paper "Learning to Simulate and Design for Structural Engineering". The paper is published to ICML 2020 and here are the linkes to the [Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5700-Paper.pdf) and the [Video](https://www.youtube.com/watch?v=0KNW2GkmX2s).
+This repo stores the dataset used in the paper "Learning to Simulate and Design for Structural Engineering". The paper is published to ICML 2020 and here are the linkes to the [Paper](https://proceedings.icml.cc/static/paper_files/icml/2020/5700-Paper.pdf) and the [Video](https://www.youtube.com/watch?v=0KNW2GkmX2s). Here is the [ICML page](https://icml.cc/virtual/2020/poster/6685).
 
 Each json contains a list of 100 graphs where each graph represents a building strucuture. The graph is stored as a dictionary.
 Assume we have a building structure with `N` bars(columns and beams) and `K` stories. Then, the corresponding structural graph has `N+1`(Ground).
